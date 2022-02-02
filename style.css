@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  max-width: 1020px;
+  background-color: #d5d5d5;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/*header start*/
+
+
+
+.profile-image{
+  width: 100px;
+  height: 120px;
+  border: 3px solid white;
+  border-radius: 50%;
+  float: left;
+}
+
+.header-bio{
+  float: left;
+  padding: 30px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: #000;
+  
+}
+
+section h1, h2, h3, h4, h5, h6{
+  line-height: 20px;
+}
+
+.header-contact{
+  float: right;
+  padding: 30px;
+
+}
+
+.header-contact a{
+  text-decoration: none;
+  font-weight: 500;
+}
+.header-contact p{
+  line-height: 25px;
+}
+.header-contact a:hover{
+  text-decoration: underline;
+  color: tomato;
+}
+
+/*header start*/
+
+/*clearing div start*/
+.div-clear{
+  clear: both;
+}
+
+hr{
+  border: solid black 3px;
+  width: 100%;
+  margin: 20px auto;
+  border-bottom: none;
+}
+
+/*clearing div end*/
+
+/*personal-section start*/
+
+
+#personal-section p{
+  text-align: justify;
+  line-height: 25px;
+}
+.content{
+  margin-bottom: 30px;
+
+}
+.left-div{
+  width: 30%;
+  float: left;
+}
+.right-div{
+  width: 70%;
+  float: left;
+}
+
+.common-hr{
+  border: solid black 1px;
+  width: 100%;
+  margin: 20px auto;
+  border-bottom: none;
+}
+
+.right-div ul{
+  padding-left: 20px;
+}
+
+#work-section p{
+  line-height: 25px;
+  text-align: justify;
+}
+
+#key-skill-section ul{
+  line-height: 25px
+}
+/*personal-section end*/
+
+/*education section start*/
+.edu-template-left{
+  float: left;
+  width: 45%;
+
+}
+
+.edu-template-right{
+  float: right;
+  width: 45%;
+  
+}
+#education-section p{
+  line-height: 25px;
+}
+
+#computer-section p{
+  line-height: 25px;
+}
+#language-section p{
+  line-height: 25px;
+}
+
+#values-section p{
+  line-height: 25px;
+}
+
+#details-section p{
+  line-height: 25px;
+  margin-bottom: 7px;
+}
+
+#reference-section p{
+  line-height: 25px;
+}
+/*education section end*/
+
+
+/*footer start*/
+
+.signature{
+  text-align: right;
+  padding: 40px;
+  margin-top: 60px;
+  text-decoration: underline;
+}
