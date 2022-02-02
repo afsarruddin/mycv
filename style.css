@@ -156,9 +156,6 @@ hr{
 
 /*footer start*/
 
-.signature{
-  text-align: right;
-  padding: 40px;
-  margin-top: 60px;
-  text-decoration: underline;
+footer{
+  margin-bottom: 20px;
 }
